@@ -52,18 +52,19 @@ body, button, input, select, textarea, h1, h2, h3, h4, h5, h6, p, span, a, td, t
 .ticker-wrap {
   overflow: hidden;
   white-space: nowrap;
+  position: relative;
 }
 .ticker-content {
-  display: inline-block;
+  display: inline-flex;
   white-space: nowrap;
-  animation: tickerScroll 80s linear infinite;
+  animation: tickerScroll 50s linear infinite;
 }
 .ticker-wrap:hover .ticker-content {
   animation-play-state: paused;
 }
 @keyframes tickerScroll {
-  0% { transform: translateX(100%); }
-  100% { transform: translateX(-100%); }
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
 
 /* Hero Carousel & Showcase Transitions */

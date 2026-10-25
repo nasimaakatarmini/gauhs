@@ -305,7 +305,7 @@ function initTicker(data) {
   if (!tickerContainer || !data.announcements) return;
 
   const items = data.announcements;
-  tickerContainer.innerHTML = items.map(item => `
+  const renderItem = item => `
     <span class="inline-flex items-center gap-2 px-6">
       ${item.urgent ? '<span class="bg-red-500 text-white text-[10px] font-black px-2 py-0.5 rounded shadow-sm animate-pulse">জরুরি</span>' : '<i class="fa-solid fa-bell text-amber-300 text-xs"></i>'}
       <a href="${escapeHtml(item.link)}" class="text-white hover:text-amber-300 transition-colors font-medium">
@@ -313,7 +313,10 @@ function initTicker(data) {
       </a>
       <span class="text-emerald-300/50 ml-6 font-normal">|</span>
     </span>
-  `).join('');
+  `;
+
+  // Render twice for continuous seamless loop without empty waiting gaps
+  tickerContainer.innerHTML = items.map(renderItem).join('') + items.map(renderItem).join('');
 }
 
 /* ==========================================================================
