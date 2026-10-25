@@ -56,7 +56,7 @@ body, button, input, select, textarea, h1, h2, h3, h4, h5, h6, p, span, a, td, t
 .ticker-content {
   display: inline-block;
   white-space: nowrap;
-  animation: tickerScroll 42s linear infinite;
+  animation: tickerScroll 80s linear infinite;
 }
 .ticker-wrap:hover .ticker-content {
   animation-play-state: paused;

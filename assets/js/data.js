@@ -4,8 +4,8 @@
  * 
  * EIIN: 108953 | MPO Code: 2707141201 | BISE Dhaka
  * Pure JSON-driven browser fallback data object to eliminate CORS issues on local file previews.
- * All dummy items are flagged internally via `is_dummy: true` or code comments.
- * No `[DUMMY_DATA]` text is displayed on the public UI.
+ * All dummy items are flagged internally via \`is_dummy: true\` or code comments.
+ * No \`[DUMMY_DATA]\` text is displayed on the public UI.
  */
 
 window.SCHOOL_DATA = {
@@ -254,7 +254,7 @@ window.SCHOOL_DATA = {
       "title_bn": "প্রধান শিক্ষক",
       "qualification_bn": "এম.এসসি (পদার্থবিজ্ঞান), বি.এড (প্রথম শ্রেণি)",
       "message_bn": "বিসমিল্লাহির রাহমানির রাহিম। গাজীপুর কৃষি বিশ্ববিদ্যালয় হাই স্কুলের ওয়েব পোর্টালে আপনাদের সকলকে আন্তরিক স্বাগতম। গাজীপুর কৃষি বিশ্ববিদ্যালয় ক্যাম্পাসের সুশীতল ও ছায়াঘেরা পরিবেশে অবস্থিত আমাদের এই বিদ্যাপীঠ জ্ঞানার্জন ও চরিত্র গঠনের এক পবিত্র তীর্থভূমি। আমাদের মূল লক্ষ্য কেবল পরীক্ষায় ভালো ফলাফল অর্জন নয়, বরং প্রতিটি শিক্ষার্থীকে একজন আদর্শ, মানবিক ও দায়িত্বশীল মানুষ হিসেবে গড়ে তোলা। পরম শ্রদ্ধেয় শিক্ষকবৃন্দের ঐকান্তিক নিষ্ঠা, অভিভাবকদের অকৃত্রিম সহযোগিতা এবং বিশ্ববিদ্যালয় ম্যানেজিং কমিটির সুদূরপ্রসারী দিকনির্দেশনায় আমাদের শিক্ষার্থীরা বোর্ড পরীক্ষায় বরাবরের মতোই কৃতিত্বপূর্ণ সাফল্য বজায় রেখেছে। বর্তমান ডিজিটাল যুগের সাথে তাল মিলিয়ে আমরা আধুনিক আইসিটি ল্যাব, স্মার্ট ক্লাসরুম এবং আহরণীর মাধ্যমে অনলাইন ফি প্রদান ব্যবস্থা চালু করেছি। আসুন, আমরা সকলে মিলে আমাদের প্রিয় সন্তানদের একটি উজ্জ্বল ভবিষ্যতের দিকে এগিয়ে নিয়ে যাই।",
-      "photo": "assets/images/teachers/headmaster.jpg",
+      "photo": "assets/images/teachers/avatar_male.svg",
       "email": "headmaster.gauhs@gmail.com",
       "phone": "+880 1716-883680",
       "is_dummy": true
@@ -266,7 +266,7 @@ window.SCHOOL_DATA = {
       "title_bn": "সভাপতি, স্কুল ম্যানেজিং কমিটি (SMC)",
       "qualification_bn": "পিএইচডি, সিনিয়র প্রফেসর, গাজীপুর কৃষি বিশ্ববিদ্যালয়",
       "message_bn": "গাজীপুর কৃষি বিশ্ববিদ্যালয় হাই স্কুল বিশ্ববিদ্যালয় পরিবার ও স্থানীয় সালনা এলাকার শিক্ষা বিস্তারে একটি গৌরবময় সংযোজন। পরিচালনা পর্ষদের পক্ষ থেকে আমরা মানসম্মত শিক্ষা উপকরণ, অবকাঠামোগত উন্নয়ন এবং শিক্ষার্থীদের অনুকূল পাঠ পরিবেশ নিশ্চিতে সর্বদা সচেষ্ট। শিক্ষক, অভিভাবক ও শিক্ষার্থীদের সম্মিলিত প্রচেষ্টায় এই প্রতিষ্ঠানটি ভবিষ্যতে দেশের শীর্ষস্থানীয় বিদ্যালয়গুলোর অন্যতম হিসেবে নিজের অবস্থান সুদৃঢ় করবে বলে আমার দৃঢ় বিশ্বাস।",
-      "photo": "assets/images/teachers/chairman.jpg",
+      "photo": "assets/images/teachers/avatar_male.svg",
       "email": "smc.chairman.gauhs@gmail.com",
       "is_dummy": true
     },
@@ -318,7 +318,7 @@ window.SCHOOL_DATA = {
         "department_code": "Science",
         "subject_bn": "উচ্চতর গণিত ও সাধারণ গণিত",
         "qualification_bn": "এম.এসসি (গণিত), বি.এড",
-        "photo": "assets/images/teachers/teacher_01.jpg",
+        "photo": "assets/images/teachers/avatar_male.svg",
         "phone": "+880 1711-000001",
         "email": "mahbub.math@gauhs.edu.bd",
         "is_dummy": true
@@ -332,7 +332,7 @@ window.SCHOOL_DATA = {
         "department_code": "Science",
         "subject_bn": "পদার্থবিজ্ঞান ও সাধারণ বিজ্ঞান",
         "qualification_bn": "এম.এসসি (পদার্থবিজ্ঞান), এম.এড",
-        "photo": "assets/images/teachers/teacher_02.jpg",
+        "photo": "assets/images/teachers/avatar_female.svg",
         "phone": "+880 1711-000002",
         "email": "nasrin.physics@gauhs.edu.bd",
         "is_dummy": true
@@ -346,7 +346,7 @@ window.SCHOOL_DATA = {
         "department_code": "Science",
         "subject_bn": "রসায়ন ও জীববিজ্ঞান",
         "qualification_bn": "এম.এসসি (প্রাণরসায়ন), বি.এড",
-        "photo": "assets/images/teachers/teacher_03.jpg",
+        "photo": "assets/images/teachers/avatar_male.svg",
         "phone": "+880 1711-000003",
         "email": "tariqul.chem@gauhs.edu.bd",
         "is_dummy": true
@@ -360,7 +360,7 @@ window.SCHOOL_DATA = {
         "department_code": "Humanities",
         "subject_bn": "ইংরেজি ভাষা ও সাহিত্য",
         "qualification_bn": "এম.এ (ইংরেজি), বি.এড",
-        "photo": "assets/images/teachers/teacher_04.jpg",
+        "photo": "assets/images/teachers/avatar_female.svg",
         "phone": "+880 1711-000004",
         "email": "farhana.eng@gauhs.edu.bd",
         "is_dummy": true
@@ -374,7 +374,7 @@ window.SCHOOL_DATA = {
         "department_code": "Humanities",
         "subject_bn": "বাংলা ভাষা ও সাহিত্য",
         "qualification_bn": "এম.এ (বাংলা, ঢাবি), বি.এড",
-        "photo": "assets/images/teachers/teacher_05.jpg",
+        "photo": "assets/images/teachers/avatar_male.svg",
         "phone": "+880 1711-000005",
         "email": "anisur.bangla@gauhs.edu.bd",
         "is_dummy": true
@@ -388,7 +388,7 @@ window.SCHOOL_DATA = {
         "department_code": "Commerce",
         "subject_bn": "হিসাববিজ্ঞান ও ফিন্যান্স",
         "qualification_bn": "এম.কম (হিসাববিজ্ঞান), বি.এড",
-        "photo": "assets/images/teachers/teacher_06.jpg",
+        "photo": "assets/images/teachers/avatar_male.svg",
         "phone": "+880 1711-000006",
         "email": "jahangir.acc@gauhs.edu.bd",
         "is_dummy": true
@@ -402,7 +402,7 @@ window.SCHOOL_DATA = {
         "department_code": "Commerce",
         "subject_bn": "ব্যবসায় উদ্যোগ ও ব্যবস্থাপনা",
         "qualification_bn": "এমবিএ (ব্যবস্থাপনা), বি.এড",
-        "photo": "assets/images/teachers/teacher_07.jpg",
+        "photo": "assets/images/teachers/avatar_female.svg",
         "phone": "+880 1711-000007",
         "email": "shamima.biz@gauhs.edu.bd",
         "is_dummy": true
@@ -416,7 +416,7 @@ window.SCHOOL_DATA = {
         "department_code": "Science",
         "subject_bn": "তথ্য ও যোগাযোগ প্রযুক্তি (ICT)",
         "qualification_bn": "বি.এসসি ইন সিএসই, সিসিএনএ",
-        "photo": "assets/images/teachers/teacher_08.jpg",
+        "photo": "assets/images/teachers/avatar_male.svg",
         "phone": "+880 1711-000008",
         "email": "tanvir.ict@gauhs.edu.bd",
         "is_dummy": true
@@ -430,7 +430,7 @@ window.SCHOOL_DATA = {
         "department_code": "Humanities",
         "subject_bn": "ইসলাম ও নৈতিক শিক্ষা",
         "qualification_bn": "কামিল (হাদিস), এম.এ (ইসলামিক স্টাডিজ)",
-        "photo": "assets/images/teachers/teacher_09.jpg",
+        "photo": "assets/images/teachers/avatar_male.svg",
         "phone": "+880 1711-000009",
         "email": "matin.islamic@gauhs.edu.bd",
         "is_dummy": true
@@ -444,7 +444,7 @@ window.SCHOOL_DATA = {
         "department_code": "Primary",
         "subject_bn": "প্রাথমিক গণিত ও পরিবেশ পরিচিতি",
         "qualification_bn": "বি.এসসি, বি.এড",
-        "photo": "assets/images/teachers/teacher_10.jpg",
+        "photo": "assets/images/teachers/avatar_female.svg",
         "phone": "+880 1711-000010",
         "email": "rehana.pri@gauhs.edu.bd",
         "is_dummy": true
@@ -458,7 +458,7 @@ window.SCHOOL_DATA = {
         "department_code": "Staff",
         "subject_bn": "শারীরিক শিক্ষা ও স্বাস্থ্য",
         "qualification_bn": "বি.পি.এড, উডব্যাজার",
-        "photo": "assets/images/teachers/teacher_11.jpg",
+        "photo": "assets/images/teachers/avatar_male.svg",
         "phone": "+880 1711-000011",
         "email": "kamrul.sports@gauhs.edu.bd",
         "is_dummy": true
@@ -472,7 +472,7 @@ window.SCHOOL_DATA = {
         "department_code": "Staff",
         "subject_bn": "হিসাব ও অফিস ব্যবস্থাপনা",
         "qualification_bn": "বি.কম, ডিপ্লোমা ইন কম্পিউটার",
-        "photo": "assets/images/teachers/teacher_12.jpg",
+        "photo": "assets/images/teachers/avatar_male.svg",
         "phone": "+880 1711-000012",
         "email": "accounts@gauhs.edu.bd",
         "is_dummy": true
