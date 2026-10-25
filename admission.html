@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="bn" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ভর্তি তথ্য ও ফি কাঠামো — গাজীপুর কৃষি বিশ্ববিদ্যালয় হাই স্কুল (GAUHS)</title>
+  <meta name="description" content="২০২৫-২০২৬ শিক্ষাবর্ষে ভর্তি নির্দেশিকা, ক্লাস-ভিত্তিক ফি তালিকা ও আবেদন প্রক্রিয়া।" />
+  <link rel="icon" type="image/svg+xml" href="assets/images/branding/gauhs_logo.svg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/custom.css" />
+</head>
+
+<body class="bg-slate-50 text-slate-800 antialiased flex flex-col min-h-screen">
+  <header class="bg-emerald-950 text-white border-b border-emerald-900/60 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2" id="top-bar-content"></div>
+  </header>
+
+  <nav class="bg-white border-b border-slate-200 sticky top-10 z-40 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20 md:h-24">
+        <div id="header-branding" class="flex-1"></div>
+        <div class="hidden xl:flex items-center space-x-1 font-bold text-sm text-slate-700">
+          <a href="index.html" class="nav-link px-3 py-2 rounded-xl transition-colors">মূল পাতা</a>
+          <a href="about.html" class="nav-link px-3 py-2 rounded-xl transition-colors">পরিচিতি</a>
+          <a href="administration.html" class="nav-link px-3 py-2 rounded-xl transition-colors">প্রশাসন ও শিক্ষক</a>
+          <a href="academics.html" class="nav-link px-3 py-2 rounded-xl transition-colors">শিক্ষাকার্যক্রম</a>
+          <a href="admission.html" class="nav-link px-3 py-2 rounded-xl transition-colors">ভর্তি তথ্য ও ফি</a>
+          <a href="notices.html" class="nav-link px-3 py-2 rounded-xl transition-colors">নোটিশ বোর্ড</a>
+          <a href="gallery.html" class="nav-link px-3 py-2 rounded-xl transition-colors">গ্যালারি</a>
+          <a href="contact.html" class="nav-link px-3 py-2 rounded-xl transition-colors">যোগাযোগ</a>
+          <a href="https://ahoroni.com/auth/sign-in?origUrl=%2Fedupay%2Fdashboard" target="_blank" rel="noopener noreferrer"
+             class="ml-2 inline-flex items-center gap-2 bg-gradient-to-r from-emerald-700 to-emerald-800 text-white font-bold px-4 py-2.5 rounded-xl shadow-md text-xs">
+            <i class="fa-solid fa-receipt text-amber-300"></i>
+            <span>ফি পরিশোধ</span>
+          </a>
+        </div>
+        <div class="flex items-center gap-2 xl:hidden">
+          <button id="mobile-menu-toggle" type="button" class="p-2.5 rounded-xl text-slate-700 hover:bg-slate-100">
+            <i class="fa-solid fa-bars text-xl"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="mobile-drawer" class="hidden xl:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 space-y-2 shadow-xl">
+      <div class="flex items-center justify-between pb-2 border-b border-slate-100">
+        <span class="text-xs font-bold text-slate-500 uppercase">মেনু নেভিগেশন</span>
+        <button id="mobile-drawer-close" class="p-1.5 text-slate-500"><i class="fa-solid fa-xmark text-lg"></i></button>
+      </div>
+      <a href="index.html" class="mobile-nav-link block px-3 py-2 rounded-xl font-bold text-slate-700">মূল পাতা</a>
+      <a href="about.html" class="mobile-nav-link block px-3 py-2 rounded-xl font-bold text-slate-700">আমাদের পরিচিতি</a>
+      <a href="administration.html" class="mobile-nav-link block px-3 py-2 rounded-xl font-bold text-slate-700">প্রশাসন ও শিক্ষকবৃন্দ</a>
+      <a href="academics.html" class="mobile-nav-link block px-3 py-2 rounded-xl font-bold text-slate-700">শিক্ষাকার্যক্রম</a>
+      <a href="admission.html" class="mobile-nav-link block px-3 py-2 rounded-xl font-bold text-slate-700">ভর্তি তথ্য ও ফি</a>
+      <a href="notices.html" class="mobile-nav-link block px-3 py-2 rounded-xl font-bold text-slate-700">নোটিশ বোর্ড</a>
+      <a href="gallery.html" class="mobile-nav-link block px-3 py-2 rounded-xl font-bold text-slate-700">ফটোগ্যালারি</a>
+      <a href="contact.html" class="mobile-nav-link block px-3 py-2 rounded-xl font-bold text-slate-700">যোগাযোগ</a>
+    </div>
+  </nav>
+
+  <section class="bg-gradient-to-r from-emerald-950 via-emerald-900 to-slate-900 text-white py-12 md:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl space-y-3">
+        <div class="inline-flex items-center gap-2 text-xs font-bold text-emerald-300">
+          <a href="index.html" class="hover:underline">মূল পাতা</a>
+          <i class="fa-solid fa-angle-right text-[10px]"></i>
+          <span>ভর্তি তথ্য ও ফি কাঠামো</span>
+        </div>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-black text-white">ভর্তি নির্দেশিকা ও ফি কাঠামো</h1>
+        <p class="text-sm sm:text-base text-emerald-100">২০২৫-২০২৬ শিক্ষাবর্ষে নার্সারি/১ম শ্রেণি থেকে ৯ম শ্রেণি পর্যন্ত মেধা ও সরকারি নীতিমালা অনুযায়ী ভর্তি প্রক্রিয়া চলমান।</p>
+      </div>
+    </div>
+  </section>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 space-y-16">
+    <!-- Notice & CTAs -->
+    <section class="bg-emerald-900 text-white rounded-3xl p-8 sm:p-10 shadow-lg flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="space-y-2">
+        <span class="bg-amber-400 text-slate-950 text-xs font-bold px-3 py-1 rounded-full uppercase">ভর্তি চলছে</span>
+        <h3 class="text-2xl sm:text-3xl font-black">২০২৫-২৬ শিক্ষাবর্ষে আবেদন ফরম সংগ্রহ</h3>
+        <p class="text-xs sm:text-sm text-emerald-100 max-w-xl">বিদ্যালয় কার্যালয় থেকে অথবা ওয়েবসাইট থেকে ফরম ডাউনলোড করে প্রয়োজনীয় কাগজপত্রসহ জমা দিন।</p>
+      </div>
+      <div class="flex flex-wrap items-center gap-3">
+        <button onclick="downloadResourceMock('ভর্তি আবেদন ফরম - GAUHS')" class="bg-amber-400 hover:bg-amber-500 text-slate-950 font-black px-6 py-3 rounded-xl shadow transition-all flex items-center gap-2 text-sm">
+          <i class="fa-solid fa-download"></i>
+          <span>ভর্তি ফরম ডাউনলোড (PDF)</span>
+        </button>
+        <a href="https://ahoroni.com/auth/sign-in?origUrl=%2Fedupay%2Fdashboard" target="_blank" rel="noopener noreferrer"
+           class="bg-white/10 hover:bg-white/20 text-white border border-white/20 px-5 py-3 rounded-xl font-bold text-sm transition-all flex items-center gap-2">
+          <i class="fa-solid fa-credit-card text-amber-300"></i>
+          <span>ভর্তি ফি দিন (আহরণী)</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Procedure Steps -->
+    <section class="space-y-6">
+      <div>
+        <span class="text-xs font-bold text-emerald-800 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">আবেদন পদ্ধতি</span>
+        <h3 class="text-2xl font-black text-slate-900 mt-2">ধাপে ধাপে ভর্তি সম্পন্ন করার নিয়ম</h3>
+      </div>
+      <div id="admission-steps-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5"></div>
+    </section>
+
+    <!-- Class-wise Fee Structure Table -->
+    <section class="space-y-6">
+      <div>
+        <span class="text-xs font-bold text-amber-800 bg-amber-50 px-3 py-1 rounded-full border border-amber-200">ফি কাঠামো</span>
+        <h3 class="text-2xl font-black text-slate-900 mt-2">শ্রেণিভিত্তিক বেতন ও আনুসঙ্গিক ফি তালিকা</h3>
+        <p class="text-xs sm:text-sm text-slate-500 mt-1">সকল প্রকার ফি আহরণী (Ahoroni) পোর্টালে বিকাশ বা ব্যাংকে জমা দেওয়া যায়।</p>
+      </div>
+
+      <div class="bg-white rounded-3xl border border-slate-200 shadow-sm overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs sm:text-sm">
+            <thead class="bg-slate-100 text-slate-700 font-bold border-b border-slate-200">
+              <tr>
+                <th class="py-3.5 px-4">শ্রেণি / শিক্ষাস্তর</th>
+                <th class="py-3.5 px-4 text-emerald-800">ভর্তি / সেশন ফি</th>
+                <th class="py-3.5 px-4">মাসিক বেতন</th>
+                <th class="py-3.5 px-4">সেশন চার্জ (বার্ষিক)</th>
+                <th class="py-3.5 px-4">পরীক্ষার ফি</th>
+              </tr>
+            </thead>
+            <tbody id="admission-fees-table"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="main-footer" class="bg-slate-950 mt-auto"></footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
